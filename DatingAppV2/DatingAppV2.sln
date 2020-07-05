@@ -3,9 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{37B35CAF-725A-4BBB-98D2-8064E64E235F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1AEF7BC4-0FEF-4968-81C2-776C2B46B4DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{25371812-EC1F-4122-8F45-5C0E7BE43853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingAppV2.API", "DatingAppV2.API\DatingAppV2.API.csproj", "{F125798A-F3D5-4FE6-AB81-92B9FC5E8E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingAppV2.Domain", "DatingAppV2.Domain\DatingAppV2.Domain.csproj", "{03554E89-5E4B-4B24-BC5E-14F7F498EFE4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F125798A-F3D5-4FE6-AB81-92B9FC5E8E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F125798A-F3D5-4FE6-AB81-92B9FC5E8E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F125798A-F3D5-4FE6-AB81-92B9FC5E8E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F125798A-F3D5-4FE6-AB81-92B9FC5E8E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03554E89-5E4B-4B24-BC5E-14F7F498EFE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03554E89-5E4B-4B24-BC5E-14F7F498EFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03554E89-5E4B-4B24-BC5E-14F7F498EFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03554E89-5E4B-4B24-BC5E-14F7F498EFE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F125798A-F3D5-4FE6-AB81-92B9FC5E8E5D} = {37B35CAF-725A-4BBB-98D2-8064E64E235F}
+		{03554E89-5E4B-4B24-BC5E-14F7F498EFE4} = {1AEF7BC4-0FEF-4968-81C2-776C2B46B4DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B095DBF6-B768-47E5-AE60-F5FC0C09D49C}
